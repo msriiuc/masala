@@ -13,11 +13,11 @@ for link in linkList:
         file1 = open("linkDocs.txt","w") 
         l= (str(link.attrs['href']+ "\n"))
         #print(l)
+        file1.writelines(l)
         print('Done!')
         
         
-file1.writelines(l)
+
 file1.close()
-        #print(str(link.attrs['href']+ "\n"))
         
 
