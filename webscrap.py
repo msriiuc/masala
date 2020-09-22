@@ -12,7 +12,8 @@ for link in linkList:
     if 'href' in link.attrs:
         file1 = open("linkDocs.txt","w") 
         l= (str(link.attrs['href']+ "\n"))
-        print(l)
+        #print(l)
+        print('Done!')
         
         
 file1.writelines(l)
