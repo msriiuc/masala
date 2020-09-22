@@ -14,10 +14,8 @@ for link in linkList:
         l= (str(link.attrs['href']+ "\n"))
         #print(l)
         file1.writelines(l)
-        print('Done!')
+print('Done!')
         
         
 
 file1.close()
-        
-
