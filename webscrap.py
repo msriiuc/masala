@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get('http://www.theartgardenrohingya.com/')
+page = requests.get('link')
 
 bSoup = BeautifulSoup(page.content, 'html.parser')
 linkList = bSoup.find_all('a')
