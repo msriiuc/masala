@@ -1,8 +1,8 @@
 import selenium.webdriver as webdriver
 
 def get_results(search_term):
-    url = "http://www.informationcommittee.gov.mm/en/search/node?keys=" + ' '.join(search_term)
-    chromedriver = r"C:\Users\HP\Downloads\chromedriver_win32\chromedriver"
+    url = "link" + ' '.join(search_term)
+    chromedriver = r"Path"
     driver = webdriver.Chrome(chromedriver)
     driver.get(url)
     
@@ -22,4 +22,4 @@ def get_results(search_term):
     return results
     
 print('Done!')
-get_results("Rohingya")
+get_results("Keyword")
